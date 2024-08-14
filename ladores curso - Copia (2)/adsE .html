@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladrões de Cassino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('fundo.jpg'); /* Caminho para a imagem de fundo */
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            color: gold; /* Cor dourada para o título */
+            background-color: black; /* Fundo preto */
+            padding: 10px 20px; /* Espaçamento ao redor do texto */
+            border-radius: 5px; /* Bordas arredondadas */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para dar efeito de botão */
+            margin-bottom: 20px;
+        }
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .video-item {
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .video-item video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .video-name {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .link-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: gold;
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .link-button:hover {
+            background-color: darkgoldenrod; /* Cor ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ladrões de Cassino</h1>
+
+    <div class="video-gallery">
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video1.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Introdução</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video2.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 1</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video3.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 2</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video4.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 3</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video5.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 4</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video6.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 5</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video7.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 6</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="videos/video8.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+            <div class="video-name">Aula 7</div>
+        </div>
+    </div>
+
+    <!-- Botão com link -->
+    <a href="https://discord.com/invite/NSbrvTFyRD" class="link-button">Gerente (discord)</a>
+
+</body>
+</html>
